@@ -1,0 +1,18 @@
+# Jekyll configuration
+# Source: https://github.com/daattali/beautiful-jekyll
+url: "https://vodkavn.github.io"
+baseurl: /
+title: Vodkavn's WIKI
+encoding: UTF-8
+markdown: kramdown
+kramdown:
+  input: GFM
+theme: jekyll-theme-cayman
+github:
+  repository_name: Vodkavn's WIKI
+plugins:
+  - jekyll-relative-links
+reloader:
+  error_file: nil
+  host: 0.0.0.0
+  port: 35729
